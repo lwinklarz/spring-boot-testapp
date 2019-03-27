@@ -1,4 +1,6 @@
 language: java
+git:
+  lfs_skip_smudge: true
 jdk:
   - oraclejdk8
 deploy:
