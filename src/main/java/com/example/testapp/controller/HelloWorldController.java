@@ -11,4 +11,9 @@ public class HelloWorldController {
     public String sayHello() {
         return "Hello world!";
     }
+
+    @GetMapping("name")
+    public String sayHelloWithName(String name) {
+        return "Hello " + name + "!";
+    }
 }
